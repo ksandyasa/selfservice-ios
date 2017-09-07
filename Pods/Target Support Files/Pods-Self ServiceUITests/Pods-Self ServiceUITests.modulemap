@@ -1,0 +1,6 @@
+framework module Pods_Self_ServiceUITests {
+  umbrella header "Pods-Self ServiceUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

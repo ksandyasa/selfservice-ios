@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MetroNovaPro-Medium.otf">
+            <string>MetroNovaPro-Medium</string>
+        </array>
+        <array key="MetroNovaPro-Regular.otf">
+            <string>MetroNovaPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell opaque="NO" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="personalInfoCell" rowHeight="66" id="KGk-i7-Jjw" customClass="PersonalInfoCell" customModule="Self_Service" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="66"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="agussofian" translatesAutoresizingMaskIntoConstraints="NO" id="wqZ-TX-lq9">
+                        <rect key="frame" x="8" y="8" width="49" height="49"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="49" id="Rqp-UM-qoV"/>
+                            <constraint firstAttribute="width" constant="49" id="pfh-3B-6Ei"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJn-BS-R5X">
+                        <rect key="frame" x="65" y="8" width="247" height="20"/>
+                        <fontDescription key="fontDescription" name="MetroNovaPro-Medium" family="Metro Nova Pro" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAd-Ps-eeT">
+                        <rect key="frame" x="65" y="36" width="247" height="17"/>
+                        <fontDescription key="fontDescription" name="MetroNovaPro-Regular" family="Metro Nova Pro" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="EJn-BS-R5X" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="0Mq-hf-DKy"/>
+                    <constraint firstAttribute="bottom" secondItem="tAd-Ps-eeT" secondAttribute="bottom" constant="12" id="9Ta-jF-EcW"/>
+                    <constraint firstAttribute="trailing" secondItem="tAd-Ps-eeT" secondAttribute="trailing" constant="8" id="Fuc-2K-8N1"/>
+                    <constraint firstItem="EJn-BS-R5X" firstAttribute="leading" secondItem="wqZ-TX-lq9" secondAttribute="trailing" constant="8" id="Ih8-Ch-JRw"/>
+                    <constraint firstItem="tAd-Ps-eeT" firstAttribute="leading" secondItem="wqZ-TX-lq9" secondAttribute="trailing" constant="8" id="RRM-QU-sWP"/>
+                    <constraint firstItem="tAd-Ps-eeT" firstAttribute="top" secondItem="EJn-BS-R5X" secondAttribute="bottom" constant="8" id="XDd-eq-dyB"/>
+                    <constraint firstItem="wqZ-TX-lq9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="df2-Ck-9LZ"/>
+                    <constraint firstAttribute="trailing" secondItem="EJn-BS-R5X" secondAttribute="trailing" constant="8" id="eEt-Av-cLN"/>
+                    <constraint firstItem="wqZ-TX-lq9" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="jna-5b-Hxk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="ivProfil" destination="wqZ-TX-lq9" id="vhR-73-thn"/>
+                <outlet property="lblJabatanPersonalInfo" destination="tAd-Ps-eeT" id="1KD-XR-mR4"/>
+                <outlet property="lblNamaPersonalInfo" destination="EJn-BS-R5X" id="eGq-ay-LWq"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="agussofian" width="853" height="1280"/>
+    </resources>
+</document>

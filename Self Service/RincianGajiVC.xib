@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MetroNovaPro-Medium.otf">
+            <string>MetroNovaPro-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RincianGajiVC" customModule="Self_Service" customModuleProvider="target">
+            <connections>
+                <outlet property="lblRincianHeader" destination="wFU-Ui-R9c" id="uVb-oe-Lfi"/>
+                <outlet property="tblRincian" destination="KOV-t0-5na" id="RTz-gA-jQE"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RINCIAN PENERIMAAN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wFU-Ui-R9c">
+                    <rect key="frame" x="8" y="8" width="359" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="9MU-eE-IEF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="MetroNovaPro-Medium" family="Metro Nova Pro" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" style="grouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="KOV-t0-5na">
+                    <rect key="frame" x="8" y="41" width="359" height="616"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="FtP-uk-zG6"/>
+                        <outlet property="delegate" destination="-1" id="kCt-fp-zBl"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="wFU-Ui-R9c" secondAttribute="trailing" constant="8" id="8qy-Lg-RAT"/>
+                <constraint firstItem="wFU-Ui-R9c" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="8" id="BHD-5j-1tf"/>
+                <constraint firstItem="KOV-t0-5na" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="LhO-g1-LUs"/>
+                <constraint firstAttribute="trailing" secondItem="KOV-t0-5na" secondAttribute="trailing" constant="8" id="PaD-cF-2T6"/>
+                <constraint firstItem="wFU-Ui-R9c" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="V75-bO-33h"/>
+                <constraint firstItem="KOV-t0-5na" firstAttribute="top" secondItem="wFU-Ui-R9c" secondAttribute="bottom" constant="8" id="mpK-sH-QYF"/>
+                <constraint firstAttribute="bottom" secondItem="KOV-t0-5na" secondAttribute="bottom" constant="10" id="wB0-Ot-aVG"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="118.5"/>
+        </view>
+    </objects>
+</document>

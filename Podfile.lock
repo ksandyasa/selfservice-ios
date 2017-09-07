@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (3.5.1)
+  - ContextMenu.iOS (1.1.0)
+  - GSKStretchyHeaderView (0.12.2)
+  - IGCMenu (1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4)
+  - ContextMenu.iOS (~> 1.1.0)
+  - GSKStretchyHeaderView
+  - IGCMenu
+
+SPEC CHECKSUMS:
+  Alamofire: 0dfba1184a543e2aa160f4e39cac4e8aba48d223
+  ContextMenu.iOS: 7f3b63915e660f51aada2c4285c40a837b2c9737
+  GSKStretchyHeaderView: affdd9f3ae6d6f3cea31dccf604367c617d037ad
+  IGCMenu: d4aea0ff420067f274734aca9d30f55dd1356ad4
+
+PODFILE CHECKSUM: 84938b1ad39831691e154d939560dd3294e8eeed
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MetroNovaPro-Medium.otf">
+            <string>MetroNovaPro-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="rotationCell" rowHeight="66" id="KGk-i7-Jjw" customClass="ContextMenuCell" customModule="Self_Service" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="66"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_close" translatesAutoresizingMaskIntoConstraints="NO" id="XcV-lb-lCF">
+                        <rect key="frame" x="255" y="0.0" width="65" height="65"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="65" id="CS9-oW-lTH"/>
+                            <constraint firstAttribute="height" constant="65" id="rO0-dR-k3n"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DFj-ct-xI2">
+                        <rect key="frame" x="8" y="8" width="239" height="49"/>
+                        <fontDescription key="fontDescription" name="MetroNovaPro-Medium" family="Metro Nova Pro" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="DFj-ct-xI2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="L25-gc-RpS"/>
+                    <constraint firstItem="XcV-lb-lCF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="bpL-eo-KKP"/>
+                    <constraint firstAttribute="bottom" secondItem="XcV-lb-lCF" secondAttribute="bottom" id="dks-HO-9mO"/>
+                    <constraint firstAttribute="bottom" secondItem="DFj-ct-xI2" secondAttribute="bottom" constant="8" id="fCE-lX-Pd0"/>
+                    <constraint firstItem="DFj-ct-xI2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="qHR-iz-eRx"/>
+                    <constraint firstItem="XcV-lb-lCF" firstAttribute="leading" secondItem="DFj-ct-xI2" secondAttribute="trailing" constant="8" id="rt1-jZ-lXC"/>
+                    <constraint firstAttribute="trailing" secondItem="XcV-lb-lCF" secondAttribute="trailing" id="yqR-Cs-WQc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="ivContextMenu" destination="XcV-lb-lCF" id="Yqq-uZ-sX5"/>
+                <outlet property="lblContextMenu" destination="DFj-ct-xI2" id="4f6-Oc-Tmh"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_close" width="512" height="512"/>
+    </resources>
+</document>

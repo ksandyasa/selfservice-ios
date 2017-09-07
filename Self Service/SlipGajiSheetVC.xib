@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MetroNovaPro-Regular.otf">
+            <string>MetroNovaPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SlipGajiSheetVC" customModule="Self_Service" customModuleProvider="target">
+            <connections>
+                <outlet property="ivRincianPenerimaan" destination="KBK-jE-g3y" id="02I-xM-adU"/>
+                <outlet property="ivRincianPotongan" destination="zwe-pA-144" id="Vkb-Nz-g8S"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="114"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_more" translatesAutoresizingMaskIntoConstraints="NO" id="2lE-ZH-xYG">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="24"/>
+                    <color key="backgroundColor" red="0.90196078430000004" green="0.31764705879999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="cmX-Nk-zbk"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qhx-c7-mdy">
+                    <rect key="frame" x="0.0" y="24" width="375" height="90"/>
+                    <subviews>
+                        <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_rincian_potongan" translatesAutoresizingMaskIntoConstraints="NO" id="zwe-pA-144">
+                            <rect key="frame" x="208" y="4" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="10m-Ee-mpF"/>
+                                <constraint firstAttribute="height" constant="40" id="sIb-qM-RaW"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0v-OY-Tio">
+                            <rect key="frame" x="103.66666666666669" y="41" width="73.333333333333314" height="41"/>
+                            <string key="text">Rincian
+Penerimaan</string>
+                            <fontDescription key="fontDescription" name="MetroNovaPro-Regular" family="Metro Nova Pro" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mst-wQ-qPk" userLabel="Rincian Potongan">
+                            <rect key="frame" x="198" y="41" width="59.666666666666686" height="41"/>
+                            <string key="text">Rincian
+Potongan</string>
+                            <fontDescription key="fontDescription" name="MetroNovaPro-Regular" family="Metro Nova Pro" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R4E-SH-rdi">
+                            <rect key="frame" x="185" y="0.0" width="5" height="90"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="5" id="0Od-Ov-vhN"/>
+                            </constraints>
+                        </view>
+                        <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_rincian_gaji" translatesAutoresizingMaskIntoConstraints="NO" id="KBK-jE-g3y">
+                            <rect key="frame" x="120" y="4" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="Byo-eT-diS"/>
+                                <constraint firstAttribute="height" constant="40" id="YQo-cX-vAk"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.65490196079999996" blue="0.14901960780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="B0v-OY-Tio" secondAttribute="bottom" constant="8" id="2NH-bE-0dd"/>
+                        <constraint firstItem="R4E-SH-rdi" firstAttribute="leading" secondItem="B0v-OY-Tio" secondAttribute="trailing" constant="8" id="4gF-iQ-UlE"/>
+                        <constraint firstItem="B0v-OY-Tio" firstAttribute="top" secondItem="KBK-jE-g3y" secondAttribute="bottom" constant="-3" id="7IM-sY-zdJ"/>
+                        <constraint firstItem="mst-wQ-qPk" firstAttribute="top" secondItem="zwe-pA-144" secondAttribute="bottom" constant="-3" id="Fpm-YD-fNi"/>
+                        <constraint firstItem="R4E-SH-rdi" firstAttribute="top" secondItem="qhx-c7-mdy" secondAttribute="top" id="Knf-2C-llj"/>
+                        <constraint firstAttribute="bottom" secondItem="R4E-SH-rdi" secondAttribute="bottom" id="MBV-DB-sVY"/>
+                        <constraint firstItem="zwe-pA-144" firstAttribute="leading" secondItem="R4E-SH-rdi" secondAttribute="trailing" constant="18" id="MKK-ny-qzc"/>
+                        <constraint firstItem="mst-wQ-qPk" firstAttribute="leading" secondItem="R4E-SH-rdi" secondAttribute="trailing" constant="8" id="OSQ-Ci-BQ8"/>
+                        <constraint firstItem="KBK-jE-g3y" firstAttribute="top" secondItem="qhx-c7-mdy" secondAttribute="top" constant="4" id="QWx-mB-bxV"/>
+                        <constraint firstItem="zwe-pA-144" firstAttribute="top" secondItem="qhx-c7-mdy" secondAttribute="top" constant="4" id="TMk-kB-ypS"/>
+                        <constraint firstItem="R4E-SH-rdi" firstAttribute="leading" secondItem="KBK-jE-g3y" secondAttribute="trailing" constant="25" id="WUf-0s-ZtX"/>
+                        <constraint firstItem="R4E-SH-rdi" firstAttribute="centerX" secondItem="qhx-c7-mdy" secondAttribute="centerX" id="fd2-5n-Kcs"/>
+                        <constraint firstAttribute="bottom" secondItem="mst-wQ-qPk" secondAttribute="bottom" constant="8" id="sPL-g4-4wx"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="2lE-ZH-xYG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="CWb-oL-ELg"/>
+                <constraint firstItem="qhx-c7-mdy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="EeA-Vh-SMK"/>
+                <constraint firstItem="2lE-ZH-xYG" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="GTh-wD-zxN"/>
+                <constraint firstAttribute="bottom" secondItem="qhx-c7-mdy" secondAttribute="bottom" id="Kwl-9Y-XQi"/>
+                <constraint firstAttribute="trailing" secondItem="2lE-ZH-xYG" secondAttribute="trailing" id="Lid-fe-Onc"/>
+                <constraint firstAttribute="trailing" secondItem="qhx-c7-mdy" secondAttribute="trailing" id="iVg-of-1p7"/>
+                <constraint firstItem="2lE-ZH-xYG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="nrU-ZH-VK2"/>
+                <constraint firstItem="qhx-c7-mdy" firstAttribute="top" secondItem="2lE-ZH-xYG" secondAttribute="bottom" id="vf8-7S-bOf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="24.5" y="132"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_more" width="512" height="512"/>
+        <image name="icon_rincian_gaji" width="512" height="512"/>
+        <image name="icon_rincian_potongan" width="512" height="512"/>
+    </resources>
+</document>

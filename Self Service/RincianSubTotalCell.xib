@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MetroNovaPro-Medium.otf">
+            <string>MetroNovaPro-Medium</string>
+        </array>
+        <array key="MetroNovaPro-Regular.otf">
+            <string>MetroNovaPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="rincianSubTotalCell" id="KGk-i7-Jjw" customClass="RincianSubTotalCell" customModule="Self_Service" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4NV-Tm-SFt">
+                        <rect key="frame" x="8" y="8" width="165" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="165" id="KX8-Dv-ToC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="MetroNovaPro-Medium" family="Metro Nova Pro" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIQ-a1-YRF">
+                        <rect key="frame" x="181" y="8" width="10" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="10" id="BbO-9S-my5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="MetroNovaPro-Regular" family="Metro Nova Pro" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2TF-wJ-TNM">
+                        <rect key="frame" x="199" y="8" width="113" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="113" id="Mii-sS-Wvg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="MetroNovaPro-Regular" family="Metro Nova Pro" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="geh-yl-fpa">
+                        <rect key="frame" x="199" y="8" width="113" height="1"/>
+                        <color key="backgroundColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="113" id="ZJS-pU-Zlx"/>
+                            <constraint firstAttribute="height" constant="1" id="beN-6A-5rI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="MetroNovaPro-Regular" family="Metro Nova Pro" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4NV-Tm-SFt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="3cF-8l-ZXd"/>
+                    <constraint firstAttribute="bottom" secondItem="NIQ-a1-YRF" secondAttribute="bottom" constant="8" id="FHg-H5-gtl"/>
+                    <constraint firstItem="geh-yl-fpa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="H7Z-vG-ODW"/>
+                    <constraint firstItem="2TF-wJ-TNM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Hs1-BY-a8d"/>
+                    <constraint firstAttribute="trailing" secondItem="geh-yl-fpa" secondAttribute="trailing" constant="8" id="Ntl-1E-CMP"/>
+                    <constraint firstAttribute="trailing" secondItem="2TF-wJ-TNM" secondAttribute="trailing" constant="8" id="RoR-4N-wKu"/>
+                    <constraint firstItem="2TF-wJ-TNM" firstAttribute="leading" secondItem="NIQ-a1-YRF" secondAttribute="trailing" constant="8" id="WBa-og-ndf"/>
+                    <constraint firstAttribute="bottom" secondItem="2TF-wJ-TNM" secondAttribute="bottom" constant="8" id="aya-39-QoE"/>
+                    <constraint firstItem="NIQ-a1-YRF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="cCY-nw-u7E"/>
+                    <constraint firstItem="NIQ-a1-YRF" firstAttribute="leading" secondItem="4NV-Tm-SFt" secondAttribute="trailing" constant="8" id="nLo-A6-vHD"/>
+                    <constraint firstAttribute="bottom" secondItem="4NV-Tm-SFt" secondAttribute="bottom" constant="8" id="ubs-Ep-M2N"/>
+                    <constraint firstItem="4NV-Tm-SFt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="zaV-v9-ik6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblRincianSubTotalDetail" destination="2TF-wJ-TNM" id="80R-L9-nVY"/>
+                <outlet property="lblRincianSubTotalTitle" destination="4NV-Tm-SFt" id="FhB-YB-fEz"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

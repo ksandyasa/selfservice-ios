@@ -1,0 +1,1025 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		250EEB351E30990400D3443E /* PersonalInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250EEB331E30990400D3443E /* PersonalInfoVC.swift */; };
+		250EEB361E30990400D3443E /* PersonalInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 250EEB341E30990400D3443E /* PersonalInfoVC.xib */; };
+		250EEB391E309B5900D3443E /* PersonalInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250EEB371E309B5900D3443E /* PersonalInfoCell.swift */; };
+		250EEB3A1E309B5900D3443E /* PersonalInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 250EEB381E309B5900D3443E /* PersonalInfoCell.xib */; };
+		252F27C51E17EB04009E15F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252F27C41E17EB04009E15F6 /* AppDelegate.swift */; };
+		252F27C71E17EB04009E15F6 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252F27C61E17EB04009E15F6 /* LoginVC.swift */; };
+		252F27CA1E17EB05009E15F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252F27C81E17EB05009E15F6 /* Main.storyboard */; };
+		252F27CC1E17EB05009E15F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252F27CB1E17EB05009E15F6 /* Assets.xcassets */; };
+		252F27CF1E17EB05009E15F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252F27CD1E17EB05009E15F6 /* LaunchScreen.storyboard */; };
+		252F27DA1E17EB05009E15F6 /* Self_ServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252F27D91E17EB05009E15F6 /* Self_ServiceTests.swift */; };
+		252F27E51E17EB05009E15F6 /* Self_ServiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252F27E41E17EB05009E15F6 /* Self_ServiceUITests.swift */; };
+		2556A3781E2FC2E5004A4E31 /* RincianFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2556A3761E2FC2E5004A4E31 /* RincianFooter.swift */; };
+		2556A3791E2FC2E5004A4E31 /* RincianFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2556A3771E2FC2E5004A4E31 /* RincianFooter.xib */; };
+		2574D7291E9E180B0070E7B3 /* SantunanDukaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2574D7271E9E180B0070E7B3 /* SantunanDukaVC.swift */; };
+		2574D72A1E9E180B0070E7B3 /* SantunanDukaVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2574D7281E9E180B0070E7B3 /* SantunanDukaVC.xib */; };
+		2574D72D1E9E18F90070E7B3 /* SantunanDukaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2574D72B1E9E18F90070E7B3 /* SantunanDukaCell.swift */; };
+		2574D72E1E9E18F90070E7B3 /* SantunanDukaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2574D72C1E9E18F90070E7B3 /* SantunanDukaCell.xib */; };
+		258B20E01E17ECCB00F1579E /* ContextMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258B20DE1E17ECCB00F1579E /* ContextMenuCell.swift */; };
+		258B20E11E17ECCB00F1579E /* ContextMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 258B20DF1E17ECCB00F1579E /* ContextMenuCell.xib */; };
+		258B20EA1E17F15B00F1579E /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258B20E91E17F15B00F1579E /* MainVC.swift */; };
+		258B20EC1E17F5AF00F1579E /* SelfServiceUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258B20EB1E17F5AF00F1579E /* SelfServiceUtility.swift */; };
+		258B20EE1E17F5C600F1579E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B20ED1E17F5C600F1579E /* Foundation.framework */; };
+		258B20F01E17F5CE00F1579E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B20EF1E17F5CE00F1579E /* UIKit.framework */; };
+		258B20F21E17F5D400F1579E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B20F11E17F5D400F1579E /* QuartzCore.framework */; };
+		25A0E46F1E181D12002BC8B3 /* Metro-Nova-Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 25A0E4691E181D12002BC8B3 /* Metro-Nova-Pro.otf */; };
+		25A0E4701E181D12002BC8B3 /* MetroNovaPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 25A0E46A1E181D12002BC8B3 /* MetroNovaPro-Bold.otf */; };
+		25A0E4711E181D12002BC8B3 /* MetroNovaPro-CondensedBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 25A0E46B1E181D12002BC8B3 /* MetroNovaPro-CondensedBold.otf */; };
+		25A0E4721E181D12002BC8B3 /* MetroNovaPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 25A0E46C1E181D12002BC8B3 /* MetroNovaPro-Light.otf */; };
+		25A0E4731E181D12002BC8B3 /* MetroNovaPro-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 25A0E46D1E181D12002BC8B3 /* MetroNovaPro-Medium.otf */; };
+		25A0E4741E181D12002BC8B3 /* MetroNovaPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 25A0E46E1E181D12002BC8B3 /* MetroNovaPro-Regular.otf */; };
+		25A0E4781E181F06002BC8B3 /* ProfilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0E4761E181F06002BC8B3 /* ProfilVC.swift */; };
+		25A0E4791E181F06002BC8B3 /* ProfilVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25A0E4771E181F06002BC8B3 /* ProfilVC.xib */; };
+		25A0E47C1E1826FA002BC8B3 /* ProfilCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0E47A1E1826FA002BC8B3 /* ProfilCell.swift */; };
+		25A0E47D1E1826FA002BC8B3 /* ProfilCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25A0E47B1E1826FA002BC8B3 /* ProfilCell.xib */; };
+		25A9E48C1E1C929200819F57 /* ContentLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A9E48A1E1C929200819F57 /* ContentLoginVC.swift */; };
+		25A9E48D1E1C929200819F57 /* ContentLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25A9E48B1E1C929200819F57 /* ContentLoginVC.xib */; };
+		25A9E4901E1C92A100819F57 /* ContentForgotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A9E48E1E1C92A100819F57 /* ContentForgotVC.swift */; };
+		25A9E4911E1C92A100819F57 /* ContentForgotVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25A9E48F1E1C92A100819F57 /* ContentForgotVC.xib */; };
+		25A9E4931E1CACEE00819F57 /* ConstantAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A9E4921E1CACEE00819F57 /* ConstantAPI.swift */; };
+		25A9E4951E1CAF5E00819F57 /* GlobalVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A9E4941E1CAF5E00819F57 /* GlobalVariable.swift */; };
+		25A9E4981E1CD7FC00819F57 /* SlipGajiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A9E4961E1CD7FC00819F57 /* SlipGajiVC.swift */; };
+		25A9E4991E1CD7FC00819F57 /* SlipGajiVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25A9E4971E1CD7FC00819F57 /* SlipGajiVC.xib */; };
+		25A9E49C1E1D5F2B00819F57 /* SlipGajiSheetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A9E49A1E1D5F2B00819F57 /* SlipGajiSheetVC.swift */; };
+		25A9E49D1E1D5F2B00819F57 /* SlipGajiSheetVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25A9E49B1E1D5F2B00819F57 /* SlipGajiSheetVC.xib */; };
+		25D476771E35F35400BE4D18 /* DetailPersonalInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D476751E35F35400BE4D18 /* DetailPersonalInfoVC.swift */; };
+		25D476781E35F35400BE4D18 /* DetailPersonalInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25D476761E35F35400BE4D18 /* DetailPersonalInfoVC.xib */; };
+		25D4767D1E35F64B00BE4D18 /* PersonalInfoDetailHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D4767B1E35F64B00BE4D18 /* PersonalInfoDetailHeader.swift */; };
+		25D4767E1E35F64B00BE4D18 /* PersonalInfoDetailHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25D4767C1E35F64B00BE4D18 /* PersonalInfoDetailHeader.xib */; };
+		25D476891E35F69A00BE4D18 /* PersonalInfoBawahanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D4767F1E35F69A00BE4D18 /* PersonalInfoBawahanCell.swift */; };
+		25D4768A1E35F69A00BE4D18 /* PersonalInfoBawahanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25D476801E35F69A00BE4D18 /* PersonalInfoBawahanCell.xib */; };
+		25D4768B1E35F69A00BE4D18 /* PersonalInfoDetailDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D476811E35F69A00BE4D18 /* PersonalInfoDetailDataCell.swift */; };
+		25D4768C1E35F69A00BE4D18 /* PersonalInfoDetailDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25D476821E35F69A00BE4D18 /* PersonalInfoDetailDataCell.xib */; };
+		25D4768D1E35F69A00BE4D18 /* PersonalInfoDetailHirarkiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D476831E35F69A00BE4D18 /* PersonalInfoDetailHirarkiCell.swift */; };
+		25D4768E1E35F69A00BE4D18 /* PersonalInfoDetailHirarkiCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25D476841E35F69A00BE4D18 /* PersonalInfoDetailHirarkiCell.xib */; };
+		25D4768F1E35F69A00BE4D18 /* PersonalInfoDetailHirarkiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D476851E35F69A00BE4D18 /* PersonalInfoDetailHirarkiViewController.swift */; };
+		25D476901E35F69A00BE4D18 /* PersonalInfoDetailHirarkiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25D476861E35F69A00BE4D18 /* PersonalInfoDetailHirarkiViewController.xib */; };
+		25D476911E35F69A00BE4D18 /* PersonalInfoRekanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D476871E35F69A00BE4D18 /* PersonalInfoRekanCell.swift */; };
+		25D476921E35F69A00BE4D18 /* PersonalInfoRekanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25D476881E35F69A00BE4D18 /* PersonalInfoRekanCell.xib */; };
+		25DD04FB1E31BCD6008A2014 /* PersonalInfoSheetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DD04F91E31BCD6008A2014 /* PersonalInfoSheetVC.swift */; };
+		25DD04FC1E31BCD6008A2014 /* PersonalInfoSheetVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25DD04FA1E31BCD6008A2014 /* PersonalInfoSheetVC.xib */; };
+		25FA36381E25038300D4BD30 /* RincianGajiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FA36361E25038300D4BD30 /* RincianGajiVC.swift */; };
+		25FA36391E25038300D4BD30 /* RincianGajiVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FA36371E25038300D4BD30 /* RincianGajiVC.xib */; };
+		25FA363E1E25067900D4BD30 /* RincianSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FA363C1E25067900D4BD30 /* RincianSection.swift */; };
+		25FA363F1E25067900D4BD30 /* RincianSection.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FA363D1E25067900D4BD30 /* RincianSection.xib */; };
+		25FA36421E25073700D4BD30 /* RincianCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FA36401E25073700D4BD30 /* RincianCell.swift */; };
+		25FA36431E25073700D4BD30 /* RincianCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FA36411E25073700D4BD30 /* RincianCell.xib */; };
+		25FA36461E25092000D4BD30 /* RincianSubTotalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FA36441E25092000D4BD30 /* RincianSubTotalCell.swift */; };
+		25FA36471E25092000D4BD30 /* RincianSubTotalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FA36451E25092000D4BD30 /* RincianSubTotalCell.xib */; };
+		4010E7E4B29F0420C290A172 /* Pods_Self_ServiceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FAB29D681604B84672B5841 /* Pods_Self_ServiceTests.framework */; };
+		9E91B0F01C4E411EBDC8ED78 /* Pods_Self_ServiceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE11153553243BA3C3F8D16A /* Pods_Self_ServiceUITests.framework */; };
+		BFA88EF82197131A0DB1BB42 /* Pods_Self_Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDE6DD7A1ABC4E9C9DF5812F /* Pods_Self_Service.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		252F27D61E17EB05009E15F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 252F27B91E17EB04009E15F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 252F27C01E17EB04009E15F6;
+			remoteInfo = "Self Service";
+		};
+		252F27E11E17EB05009E15F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 252F27B91E17EB04009E15F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 252F27C01E17EB04009E15F6;
+			remoteInfo = "Self Service";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E9BC49667FEB873CA732883 /* Pods-Self Service.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Self Service.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Self Service/Pods-Self Service.debug.xcconfig"; sourceTree = "<group>"; };
+		1FAB29D681604B84672B5841 /* Pods_Self_ServiceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Self_ServiceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		250EEB331E30990400D3443E /* PersonalInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoVC.swift; sourceTree = "<group>"; };
+		250EEB341E30990400D3443E /* PersonalInfoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInfoVC.xib; sourceTree = "<group>"; };
+		250EEB371E309B5900D3443E /* PersonalInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoCell.swift; sourceTree = "<group>"; };
+		250EEB381E309B5900D3443E /* PersonalInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInfoCell.xib; sourceTree = "<group>"; };
+		252F27C11E17EB04009E15F6 /* Self Service.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Self Service.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		252F27C41E17EB04009E15F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		252F27C61E17EB04009E15F6 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		252F27C91E17EB05009E15F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		252F27CB1E17EB05009E15F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		252F27CE1E17EB05009E15F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		252F27D01E17EB05009E15F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		252F27D51E17EB05009E15F6 /* Self ServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Self ServiceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		252F27D91E17EB05009E15F6 /* Self_ServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Self_ServiceTests.swift; sourceTree = "<group>"; };
+		252F27DB1E17EB05009E15F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		252F27E01E17EB05009E15F6 /* Self ServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Self ServiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		252F27E41E17EB05009E15F6 /* Self_ServiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Self_ServiceUITests.swift; sourceTree = "<group>"; };
+		252F27E61E17EB05009E15F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2556A3761E2FC2E5004A4E31 /* RincianFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RincianFooter.swift; sourceTree = "<group>"; };
+		2556A3771E2FC2E5004A4E31 /* RincianFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RincianFooter.xib; sourceTree = "<group>"; };
+		2574D7271E9E180B0070E7B3 /* SantunanDukaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SantunanDukaVC.swift; sourceTree = "<group>"; };
+		2574D7281E9E180B0070E7B3 /* SantunanDukaVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SantunanDukaVC.xib; sourceTree = "<group>"; };
+		2574D72B1E9E18F90070E7B3 /* SantunanDukaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SantunanDukaCell.swift; sourceTree = "<group>"; };
+		2574D72C1E9E18F90070E7B3 /* SantunanDukaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SantunanDukaCell.xib; sourceTree = "<group>"; };
+		258B20DC1E17EC5000F1579E /* SelfService-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SelfService-Bridging-Header.h"; sourceTree = "<group>"; };
+		258B20DE1E17ECCB00F1579E /* ContextMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextMenuCell.swift; sourceTree = "<group>"; };
+		258B20DF1E17ECCB00F1579E /* ContextMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContextMenuCell.xib; sourceTree = "<group>"; };
+		258B20E91E17F15B00F1579E /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		258B20EB1E17F5AF00F1579E /* SelfServiceUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfServiceUtility.swift; sourceTree = "<group>"; };
+		258B20ED1E17F5C600F1579E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		258B20EF1E17F5CE00F1579E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		258B20F11E17F5D400F1579E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		25A0E4691E181D12002BC8B3 /* Metro-Nova-Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metro-Nova-Pro.otf"; sourceTree = "<group>"; };
+		25A0E46A1E181D12002BC8B3 /* MetroNovaPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MetroNovaPro-Bold.otf"; sourceTree = "<group>"; };
+		25A0E46B1E181D12002BC8B3 /* MetroNovaPro-CondensedBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MetroNovaPro-CondensedBold.otf"; sourceTree = "<group>"; };
+		25A0E46C1E181D12002BC8B3 /* MetroNovaPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MetroNovaPro-Light.otf"; sourceTree = "<group>"; };
+		25A0E46D1E181D12002BC8B3 /* MetroNovaPro-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MetroNovaPro-Medium.otf"; sourceTree = "<group>"; };
+		25A0E46E1E181D12002BC8B3 /* MetroNovaPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MetroNovaPro-Regular.otf"; sourceTree = "<group>"; };
+		25A0E4761E181F06002BC8B3 /* ProfilVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilVC.swift; sourceTree = "<group>"; };
+		25A0E4771E181F06002BC8B3 /* ProfilVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfilVC.xib; sourceTree = "<group>"; };
+		25A0E47A1E1826FA002BC8B3 /* ProfilCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilCell.swift; sourceTree = "<group>"; };
+		25A0E47B1E1826FA002BC8B3 /* ProfilCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfilCell.xib; sourceTree = "<group>"; };
+		25A9E48A1E1C929200819F57 /* ContentLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentLoginVC.swift; sourceTree = "<group>"; };
+		25A9E48B1E1C929200819F57 /* ContentLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentLoginVC.xib; sourceTree = "<group>"; };
+		25A9E48E1E1C92A100819F57 /* ContentForgotVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentForgotVC.swift; sourceTree = "<group>"; };
+		25A9E48F1E1C92A100819F57 /* ContentForgotVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentForgotVC.xib; sourceTree = "<group>"; };
+		25A9E4921E1CACEE00819F57 /* ConstantAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantAPI.swift; sourceTree = "<group>"; };
+		25A9E4941E1CAF5E00819F57 /* GlobalVariable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariable.swift; sourceTree = "<group>"; };
+		25A9E4961E1CD7FC00819F57 /* SlipGajiVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlipGajiVC.swift; sourceTree = "<group>"; };
+		25A9E4971E1CD7FC00819F57 /* SlipGajiVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlipGajiVC.xib; sourceTree = "<group>"; };
+		25A9E49A1E1D5F2B00819F57 /* SlipGajiSheetVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlipGajiSheetVC.swift; sourceTree = "<group>"; };
+		25A9E49B1E1D5F2B00819F57 /* SlipGajiSheetVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlipGajiSheetVC.xib; sourceTree = "<group>"; };
+		25D476751E35F35400BE4D18 /* DetailPersonalInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPersonalInfoVC.swift; sourceTree = "<group>"; };
+		25D476761E35F35400BE4D18 /* DetailPersonalInfoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailPersonalInfoVC.xib; sourceTree = "<group>"; };
+		25D4767B1E35F64B00BE4D18 /* PersonalInfoDetailHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoDetailHeader.swift; sourceTree = "<group>"; };
+		25D4767C1E35F64B00BE4D18 /* PersonalInfoDetailHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInfoDetailHeader.xib; sourceTree = "<group>"; };
+		25D4767F1E35F69A00BE4D18 /* PersonalInfoBawahanCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoBawahanCell.swift; sourceTree = "<group>"; };
+		25D476801E35F69A00BE4D18 /* PersonalInfoBawahanCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInfoBawahanCell.xib; sourceTree = "<group>"; };
+		25D476811E35F69A00BE4D18 /* PersonalInfoDetailDataCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoDetailDataCell.swift; sourceTree = "<group>"; };
+		25D476821E35F69A00BE4D18 /* PersonalInfoDetailDataCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInfoDetailDataCell.xib; sourceTree = "<group>"; };
+		25D476831E35F69A00BE4D18 /* PersonalInfoDetailHirarkiCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoDetailHirarkiCell.swift; sourceTree = "<group>"; };
+		25D476841E35F69A00BE4D18 /* PersonalInfoDetailHirarkiCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInfoDetailHirarkiCell.xib; sourceTree = "<group>"; };
+		25D476851E35F69A00BE4D18 /* PersonalInfoDetailHirarkiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoDetailHirarkiViewController.swift; sourceTree = "<group>"; };
+		25D476861E35F69A00BE4D18 /* PersonalInfoDetailHirarkiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInfoDetailHirarkiViewController.xib; sourceTree = "<group>"; };
+		25D476871E35F69A00BE4D18 /* PersonalInfoRekanCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoRekanCell.swift; sourceTree = "<group>"; };
+		25D476881E35F69A00BE4D18 /* PersonalInfoRekanCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInfoRekanCell.xib; sourceTree = "<group>"; };
+		25DD04F91E31BCD6008A2014 /* PersonalInfoSheetVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoSheetVC.swift; sourceTree = "<group>"; };
+		25DD04FA1E31BCD6008A2014 /* PersonalInfoSheetVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInfoSheetVC.xib; sourceTree = "<group>"; };
+		25FA36361E25038300D4BD30 /* RincianGajiVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RincianGajiVC.swift; sourceTree = "<group>"; };
+		25FA36371E25038300D4BD30 /* RincianGajiVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RincianGajiVC.xib; sourceTree = "<group>"; };
+		25FA363C1E25067900D4BD30 /* RincianSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RincianSection.swift; sourceTree = "<group>"; };
+		25FA363D1E25067900D4BD30 /* RincianSection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RincianSection.xib; sourceTree = "<group>"; };
+		25FA36401E25073700D4BD30 /* RincianCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RincianCell.swift; sourceTree = "<group>"; };
+		25FA36411E25073700D4BD30 /* RincianCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RincianCell.xib; sourceTree = "<group>"; };
+		25FA36441E25092000D4BD30 /* RincianSubTotalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RincianSubTotalCell.swift; sourceTree = "<group>"; };
+		25FA36451E25092000D4BD30 /* RincianSubTotalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RincianSubTotalCell.xib; sourceTree = "<group>"; };
+		2E136335BE8C7E215F0C31AF /* Pods-Self ServiceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Self ServiceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Self ServiceTests/Pods-Self ServiceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7156561F068589E1D1ABA63A /* Pods-Self ServiceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Self ServiceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Self ServiceTests/Pods-Self ServiceTests.release.xcconfig"; sourceTree = "<group>"; };
+		9472627DEA7683D00A40E1CC /* Pods-Self ServiceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Self ServiceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Self ServiceUITests/Pods-Self ServiceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E9A8835B1F385B5D8AB5C20 /* Pods-Self Service.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Self Service.release.xcconfig"; path = "Pods/Target Support Files/Pods-Self Service/Pods-Self Service.release.xcconfig"; sourceTree = "<group>"; };
+		AE11153553243BA3C3F8D16A /* Pods_Self_ServiceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Self_ServiceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B182864F4F9696452D09DA28 /* Pods-Self ServiceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Self ServiceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Self ServiceUITests/Pods-Self ServiceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDE6DD7A1ABC4E9C9DF5812F /* Pods_Self_Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Self_Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		252F27BE1E17EB04009E15F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258B20F21E17F5D400F1579E /* QuartzCore.framework in Frameworks */,
+				258B20F01E17F5CE00F1579E /* UIKit.framework in Frameworks */,
+				258B20EE1E17F5C600F1579E /* Foundation.framework in Frameworks */,
+				BFA88EF82197131A0DB1BB42 /* Pods_Self_Service.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252F27D21E17EB05009E15F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4010E7E4B29F0420C290A172 /* Pods_Self_ServiceTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252F27DD1E17EB05009E15F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E91B0F01C4E411EBDC8ED78 /* Pods_Self_ServiceUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		252F27B81E17EB04009E15F6 = {
+			isa = PBXGroup;
+			children = (
+				252F27C31E17EB04009E15F6 /* Self Service */,
+				252F27D81E17EB05009E15F6 /* Self ServiceTests */,
+				252F27E31E17EB05009E15F6 /* Self ServiceUITests */,
+				252F27C21E17EB04009E15F6 /* Products */,
+				7DB2CAAEAEC93DE1FD809585 /* Pods */,
+				9B19B7E60DCC34B2A0E78948 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		252F27C21E17EB04009E15F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				252F27C11E17EB04009E15F6 /* Self Service.app */,
+				252F27D51E17EB05009E15F6 /* Self ServiceTests.xctest */,
+				252F27E01E17EB05009E15F6 /* Self ServiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		252F27C31E17EB04009E15F6 /* Self Service */ = {
+			isa = PBXGroup;
+			children = (
+				25A0E4681E181CE1002BC8B3 /* CustomFonts */,
+				258B20E81E17F12100F1579E /* ViewController */,
+				258B20DD1E17ECAD00F1579E /* TableViewCell */,
+				25FA363A1E25060F00D4BD30 /* HeaderView */,
+				25FA363B1E25062E00D4BD30 /* FooterView */,
+				258B20DB1E17EC2400F1579E /* Utility */,
+				25A0E4751E181EDE002BC8B3 /* View */,
+				252F27C41E17EB04009E15F6 /* AppDelegate.swift */,
+				252F27CB1E17EB05009E15F6 /* Assets.xcassets */,
+				252F27CD1E17EB05009E15F6 /* LaunchScreen.storyboard */,
+				252F27D01E17EB05009E15F6 /* Info.plist */,
+			);
+			path = "Self Service";
+			sourceTree = "<group>";
+		};
+		252F27D81E17EB05009E15F6 /* Self ServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				252F27D91E17EB05009E15F6 /* Self_ServiceTests.swift */,
+				252F27DB1E17EB05009E15F6 /* Info.plist */,
+			);
+			path = "Self ServiceTests";
+			sourceTree = "<group>";
+		};
+		252F27E31E17EB05009E15F6 /* Self ServiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				252F27E41E17EB05009E15F6 /* Self_ServiceUITests.swift */,
+				252F27E61E17EB05009E15F6 /* Info.plist */,
+			);
+			path = "Self ServiceUITests";
+			sourceTree = "<group>";
+		};
+		258B20DB1E17EC2400F1579E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				258B20DC1E17EC5000F1579E /* SelfService-Bridging-Header.h */,
+				258B20EB1E17F5AF00F1579E /* SelfServiceUtility.swift */,
+				25A9E4921E1CACEE00819F57 /* ConstantAPI.swift */,
+				25A9E4941E1CAF5E00819F57 /* GlobalVariable.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		258B20DD1E17ECAD00F1579E /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				25D4767F1E35F69A00BE4D18 /* PersonalInfoBawahanCell.swift */,
+				25D476801E35F69A00BE4D18 /* PersonalInfoBawahanCell.xib */,
+				25D476811E35F69A00BE4D18 /* PersonalInfoDetailDataCell.swift */,
+				25D476821E35F69A00BE4D18 /* PersonalInfoDetailDataCell.xib */,
+				25D476831E35F69A00BE4D18 /* PersonalInfoDetailHirarkiCell.swift */,
+				25D476841E35F69A00BE4D18 /* PersonalInfoDetailHirarkiCell.xib */,
+				25D476871E35F69A00BE4D18 /* PersonalInfoRekanCell.swift */,
+				25D476881E35F69A00BE4D18 /* PersonalInfoRekanCell.xib */,
+				258B20DE1E17ECCB00F1579E /* ContextMenuCell.swift */,
+				258B20DF1E17ECCB00F1579E /* ContextMenuCell.xib */,
+				25A0E47A1E1826FA002BC8B3 /* ProfilCell.swift */,
+				25A0E47B1E1826FA002BC8B3 /* ProfilCell.xib */,
+				25FA36401E25073700D4BD30 /* RincianCell.swift */,
+				25FA36411E25073700D4BD30 /* RincianCell.xib */,
+				25FA36441E25092000D4BD30 /* RincianSubTotalCell.swift */,
+				25FA36451E25092000D4BD30 /* RincianSubTotalCell.xib */,
+				250EEB371E309B5900D3443E /* PersonalInfoCell.swift */,
+				250EEB381E309B5900D3443E /* PersonalInfoCell.xib */,
+				2574D72B1E9E18F90070E7B3 /* SantunanDukaCell.swift */,
+				2574D72C1E9E18F90070E7B3 /* SantunanDukaCell.xib */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		258B20E81E17F12100F1579E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				252F27C61E17EB04009E15F6 /* LoginVC.swift */,
+				258B20E91E17F15B00F1579E /* MainVC.swift */,
+				25A0E4761E181F06002BC8B3 /* ProfilVC.swift */,
+				25A0E4771E181F06002BC8B3 /* ProfilVC.xib */,
+				25A9E48A1E1C929200819F57 /* ContentLoginVC.swift */,
+				25A9E48B1E1C929200819F57 /* ContentLoginVC.xib */,
+				25A9E48E1E1C92A100819F57 /* ContentForgotVC.swift */,
+				25A9E48F1E1C92A100819F57 /* ContentForgotVC.xib */,
+				25A9E4961E1CD7FC00819F57 /* SlipGajiVC.swift */,
+				25A9E4971E1CD7FC00819F57 /* SlipGajiVC.xib */,
+				25A9E49A1E1D5F2B00819F57 /* SlipGajiSheetVC.swift */,
+				25A9E49B1E1D5F2B00819F57 /* SlipGajiSheetVC.xib */,
+				25FA36361E25038300D4BD30 /* RincianGajiVC.swift */,
+				25FA36371E25038300D4BD30 /* RincianGajiVC.xib */,
+				250EEB331E30990400D3443E /* PersonalInfoVC.swift */,
+				250EEB341E30990400D3443E /* PersonalInfoVC.xib */,
+				25DD04F91E31BCD6008A2014 /* PersonalInfoSheetVC.swift */,
+				25DD04FA1E31BCD6008A2014 /* PersonalInfoSheetVC.xib */,
+				25D476751E35F35400BE4D18 /* DetailPersonalInfoVC.swift */,
+				25D476761E35F35400BE4D18 /* DetailPersonalInfoVC.xib */,
+				25D476851E35F69A00BE4D18 /* PersonalInfoDetailHirarkiViewController.swift */,
+				25D476861E35F69A00BE4D18 /* PersonalInfoDetailHirarkiViewController.xib */,
+				2574D7271E9E180B0070E7B3 /* SantunanDukaVC.swift */,
+				2574D7281E9E180B0070E7B3 /* SantunanDukaVC.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		25A0E4681E181CE1002BC8B3 /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				25A0E4691E181D12002BC8B3 /* Metro-Nova-Pro.otf */,
+				25A0E46A1E181D12002BC8B3 /* MetroNovaPro-Bold.otf */,
+				25A0E46B1E181D12002BC8B3 /* MetroNovaPro-CondensedBold.otf */,
+				25A0E46C1E181D12002BC8B3 /* MetroNovaPro-Light.otf */,
+				25A0E46D1E181D12002BC8B3 /* MetroNovaPro-Medium.otf */,
+				25A0E46E1E181D12002BC8B3 /* MetroNovaPro-Regular.otf */,
+			);
+			name = CustomFonts;
+			sourceTree = "<group>";
+		};
+		25A0E4751E181EDE002BC8B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				252F27C81E17EB05009E15F6 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		25FA363A1E25060F00D4BD30 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				25D4767B1E35F64B00BE4D18 /* PersonalInfoDetailHeader.swift */,
+				25D4767C1E35F64B00BE4D18 /* PersonalInfoDetailHeader.xib */,
+				25FA363C1E25067900D4BD30 /* RincianSection.swift */,
+				25FA363D1E25067900D4BD30 /* RincianSection.xib */,
+			);
+			name = HeaderView;
+			sourceTree = "<group>";
+		};
+		25FA363B1E25062E00D4BD30 /* FooterView */ = {
+			isa = PBXGroup;
+			children = (
+				2556A3761E2FC2E5004A4E31 /* RincianFooter.swift */,
+				2556A3771E2FC2E5004A4E31 /* RincianFooter.xib */,
+			);
+			name = FooterView;
+			sourceTree = "<group>";
+		};
+		7DB2CAAEAEC93DE1FD809585 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E9BC49667FEB873CA732883 /* Pods-Self Service.debug.xcconfig */,
+				9E9A8835B1F385B5D8AB5C20 /* Pods-Self Service.release.xcconfig */,
+				2E136335BE8C7E215F0C31AF /* Pods-Self ServiceTests.debug.xcconfig */,
+				7156561F068589E1D1ABA63A /* Pods-Self ServiceTests.release.xcconfig */,
+				B182864F4F9696452D09DA28 /* Pods-Self ServiceUITests.debug.xcconfig */,
+				9472627DEA7683D00A40E1CC /* Pods-Self ServiceUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B19B7E60DCC34B2A0E78948 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				258B20F11E17F5D400F1579E /* QuartzCore.framework */,
+				258B20EF1E17F5CE00F1579E /* UIKit.framework */,
+				258B20ED1E17F5C600F1579E /* Foundation.framework */,
+				BDE6DD7A1ABC4E9C9DF5812F /* Pods_Self_Service.framework */,
+				1FAB29D681604B84672B5841 /* Pods_Self_ServiceTests.framework */,
+				AE11153553243BA3C3F8D16A /* Pods_Self_ServiceUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		252F27C01E17EB04009E15F6 /* Self Service */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252F27E91E17EB05009E15F6 /* Build configuration list for PBXNativeTarget "Self Service" */;
+			buildPhases = (
+				7ACD9740A6FE1CAFA7C04645 /* [CP] Check Pods Manifest.lock */,
+				252F27BD1E17EB04009E15F6 /* Sources */,
+				252F27BE1E17EB04009E15F6 /* Frameworks */,
+				252F27BF1E17EB04009E15F6 /* Resources */,
+				9412B9A5F06B0BCABF3C8DB3 /* [CP] Embed Pods Frameworks */,
+				CB99621200936C3E8FA562C3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Self Service";
+			productName = "Self Service";
+			productReference = 252F27C11E17EB04009E15F6 /* Self Service.app */;
+			productType = "com.apple.product-type.application";
+		};
+		252F27D41E17EB05009E15F6 /* Self ServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252F27EC1E17EB05009E15F6 /* Build configuration list for PBXNativeTarget "Self ServiceTests" */;
+			buildPhases = (
+				243541DD3E7938686E6651D9 /* [CP] Check Pods Manifest.lock */,
+				252F27D11E17EB05009E15F6 /* Sources */,
+				252F27D21E17EB05009E15F6 /* Frameworks */,
+				252F27D31E17EB05009E15F6 /* Resources */,
+				744DF54809385706DE228536 /* [CP] Embed Pods Frameworks */,
+				B2181DF689C446D3E67E7C97 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				252F27D71E17EB05009E15F6 /* PBXTargetDependency */,
+			);
+			name = "Self ServiceTests";
+			productName = "Self ServiceTests";
+			productReference = 252F27D51E17EB05009E15F6 /* Self ServiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		252F27DF1E17EB05009E15F6 /* Self ServiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252F27EF1E17EB05009E15F6 /* Build configuration list for PBXNativeTarget "Self ServiceUITests" */;
+			buildPhases = (
+				F9FA8C12CB310D22DF28170A /* [CP] Check Pods Manifest.lock */,
+				252F27DC1E17EB05009E15F6 /* Sources */,
+				252F27DD1E17EB05009E15F6 /* Frameworks */,
+				252F27DE1E17EB05009E15F6 /* Resources */,
+				D062F08171E2BD954F4449C1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				252F27E21E17EB05009E15F6 /* PBXTargetDependency */,
+			);
+			name = "Self ServiceUITests";
+			productName = "Self ServiceUITests";
+			productReference = 252F27E01E17EB05009E15F6 /* Self ServiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		252F27B91E17EB04009E15F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "PT. Jasa Marga, Tbk";
+				TargetAttributes = {
+					252F27C01E17EB04009E15F6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8CDDGZK854;
+						ProvisioningStyle = Automatic;
+					};
+					252F27D41E17EB05009E15F6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8CDDGZK854;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 252F27C01E17EB04009E15F6;
+					};
+					252F27DF1E17EB05009E15F6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8CDDGZK854;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 252F27C01E17EB04009E15F6;
+					};
+				};
+			};
+			buildConfigurationList = 252F27BC1E17EB04009E15F6 /* Build configuration list for PBXProject "Self Service" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 252F27B81E17EB04009E15F6;
+			productRefGroup = 252F27C21E17EB04009E15F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				252F27C01E17EB04009E15F6 /* Self Service */,
+				252F27D41E17EB05009E15F6 /* Self ServiceTests */,
+				252F27DF1E17EB05009E15F6 /* Self ServiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		252F27BF1E17EB04009E15F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D4768A1E35F69A00BE4D18 /* PersonalInfoBawahanCell.xib in Resources */,
+				252F27CF1E17EB05009E15F6 /* LaunchScreen.storyboard in Resources */,
+				25A0E4731E181D12002BC8B3 /* MetroNovaPro-Medium.otf in Resources */,
+				25DD04FC1E31BCD6008A2014 /* PersonalInfoSheetVC.xib in Resources */,
+				2556A3791E2FC2E5004A4E31 /* RincianFooter.xib in Resources */,
+				2574D72E1E9E18F90070E7B3 /* SantunanDukaCell.xib in Resources */,
+				252F27CC1E17EB05009E15F6 /* Assets.xcassets in Resources */,
+				25D4768E1E35F69A00BE4D18 /* PersonalInfoDetailHirarkiCell.xib in Resources */,
+				258B20E11E17ECCB00F1579E /* ContextMenuCell.xib in Resources */,
+				25A9E4991E1CD7FC00819F57 /* SlipGajiVC.xib in Resources */,
+				2574D72A1E9E180B0070E7B3 /* SantunanDukaVC.xib in Resources */,
+				25D4768C1E35F69A00BE4D18 /* PersonalInfoDetailDataCell.xib in Resources */,
+				25D476921E35F69A00BE4D18 /* PersonalInfoRekanCell.xib in Resources */,
+				25D476901E35F69A00BE4D18 /* PersonalInfoDetailHirarkiViewController.xib in Resources */,
+				25A0E4741E181D12002BC8B3 /* MetroNovaPro-Regular.otf in Resources */,
+				25D476781E35F35400BE4D18 /* DetailPersonalInfoVC.xib in Resources */,
+				25FA36471E25092000D4BD30 /* RincianSubTotalCell.xib in Resources */,
+				25A0E4711E181D12002BC8B3 /* MetroNovaPro-CondensedBold.otf in Resources */,
+				25A0E46F1E181D12002BC8B3 /* Metro-Nova-Pro.otf in Resources */,
+				25FA363F1E25067900D4BD30 /* RincianSection.xib in Resources */,
+				25D4767E1E35F64B00BE4D18 /* PersonalInfoDetailHeader.xib in Resources */,
+				25FA36391E25038300D4BD30 /* RincianGajiVC.xib in Resources */,
+				25A9E4911E1C92A100819F57 /* ContentForgotVC.xib in Resources */,
+				25FA36431E25073700D4BD30 /* RincianCell.xib in Resources */,
+				250EEB361E30990400D3443E /* PersonalInfoVC.xib in Resources */,
+				25A9E49D1E1D5F2B00819F57 /* SlipGajiSheetVC.xib in Resources */,
+				25A0E47D1E1826FA002BC8B3 /* ProfilCell.xib in Resources */,
+				25A0E4701E181D12002BC8B3 /* MetroNovaPro-Bold.otf in Resources */,
+				25A9E48D1E1C929200819F57 /* ContentLoginVC.xib in Resources */,
+				25A0E4721E181D12002BC8B3 /* MetroNovaPro-Light.otf in Resources */,
+				25A0E4791E181F06002BC8B3 /* ProfilVC.xib in Resources */,
+				252F27CA1E17EB05009E15F6 /* Main.storyboard in Resources */,
+				250EEB3A1E309B5900D3443E /* PersonalInfoCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252F27D31E17EB05009E15F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252F27DE1E17EB05009E15F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		243541DD3E7938686E6651D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		744DF54809385706DE228536 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Self ServiceTests/Pods-Self ServiceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ACD9740A6FE1CAFA7C04645 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9412B9A5F06B0BCABF3C8DB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Self Service/Pods-Self Service-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2181DF689C446D3E67E7C97 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Self ServiceTests/Pods-Self ServiceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB99621200936C3E8FA562C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Self Service/Pods-Self Service-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D062F08171E2BD954F4449C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Self ServiceUITests/Pods-Self ServiceUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9FA8C12CB310D22DF28170A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		252F27BD1E17EB04009E15F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D4767D1E35F64B00BE4D18 /* PersonalInfoDetailHeader.swift in Sources */,
+				25FA36421E25073700D4BD30 /* RincianCell.swift in Sources */,
+				25A9E4901E1C92A100819F57 /* ContentForgotVC.swift in Sources */,
+				258B20E01E17ECCB00F1579E /* ContextMenuCell.swift in Sources */,
+				25A0E47C1E1826FA002BC8B3 /* ProfilCell.swift in Sources */,
+				258B20EA1E17F15B00F1579E /* MainVC.swift in Sources */,
+				25D476771E35F35400BE4D18 /* DetailPersonalInfoVC.swift in Sources */,
+				25FA36461E25092000D4BD30 /* RincianSubTotalCell.swift in Sources */,
+				258B20EC1E17F5AF00F1579E /* SelfServiceUtility.swift in Sources */,
+				25D4768D1E35F69A00BE4D18 /* PersonalInfoDetailHirarkiCell.swift in Sources */,
+				25FA363E1E25067900D4BD30 /* RincianSection.swift in Sources */,
+				25A9E48C1E1C929200819F57 /* ContentLoginVC.swift in Sources */,
+				250EEB391E309B5900D3443E /* PersonalInfoCell.swift in Sources */,
+				25A9E4931E1CACEE00819F57 /* ConstantAPI.swift in Sources */,
+				2574D72D1E9E18F90070E7B3 /* SantunanDukaCell.swift in Sources */,
+				252F27C71E17EB04009E15F6 /* LoginVC.swift in Sources */,
+				25A0E4781E181F06002BC8B3 /* ProfilVC.swift in Sources */,
+				25A9E49C1E1D5F2B00819F57 /* SlipGajiSheetVC.swift in Sources */,
+				25A9E4951E1CAF5E00819F57 /* GlobalVariable.swift in Sources */,
+				250EEB351E30990400D3443E /* PersonalInfoVC.swift in Sources */,
+				25D476891E35F69A00BE4D18 /* PersonalInfoBawahanCell.swift in Sources */,
+				25DD04FB1E31BCD6008A2014 /* PersonalInfoSheetVC.swift in Sources */,
+				252F27C51E17EB04009E15F6 /* AppDelegate.swift in Sources */,
+				25FA36381E25038300D4BD30 /* RincianGajiVC.swift in Sources */,
+				25A9E4981E1CD7FC00819F57 /* SlipGajiVC.swift in Sources */,
+				25D4768B1E35F69A00BE4D18 /* PersonalInfoDetailDataCell.swift in Sources */,
+				2574D7291E9E180B0070E7B3 /* SantunanDukaVC.swift in Sources */,
+				2556A3781E2FC2E5004A4E31 /* RincianFooter.swift in Sources */,
+				25D4768F1E35F69A00BE4D18 /* PersonalInfoDetailHirarkiViewController.swift in Sources */,
+				25D476911E35F69A00BE4D18 /* PersonalInfoRekanCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252F27D11E17EB05009E15F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252F27DA1E17EB05009E15F6 /* Self_ServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252F27DC1E17EB05009E15F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252F27E51E17EB05009E15F6 /* Self_ServiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		252F27D71E17EB05009E15F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 252F27C01E17EB04009E15F6 /* Self Service */;
+			targetProxy = 252F27D61E17EB05009E15F6 /* PBXContainerItemProxy */;
+		};
+		252F27E21E17EB05009E15F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 252F27C01E17EB04009E15F6 /* Self Service */;
+			targetProxy = 252F27E11E17EB05009E15F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		252F27C81E17EB05009E15F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				252F27C91E17EB05009E15F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		252F27CD1E17EB05009E15F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				252F27CE1E17EB05009E15F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		252F27E71E17EB05009E15F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		252F27E81E17EB05009E15F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		252F27EA1E17EB05009E15F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E9BC49667FEB873CA732883 /* Pods-Self Service.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8CDDGZK854;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Self Service/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasamarga.Self-Service";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Self Service/SelfService-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		252F27EB1E17EB05009E15F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E9A8835B1F385B5D8AB5C20 /* Pods-Self Service.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8CDDGZK854;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Self Service/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasamarga.Self-Service";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Self Service/SelfService-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+		252F27ED1E17EB05009E15F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E136335BE8C7E215F0C31AF /* Pods-Self ServiceTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8CDDGZK854;
+				INFOPLIST_FILE = "Self ServiceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasamarga.Self-ServiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Self Service.app/Self Service";
+			};
+			name = Debug;
+		};
+		252F27EE1E17EB05009E15F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7156561F068589E1D1ABA63A /* Pods-Self ServiceTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8CDDGZK854;
+				INFOPLIST_FILE = "Self ServiceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasamarga.Self-ServiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Self Service.app/Self Service";
+			};
+			name = Release;
+		};
+		252F27F01E17EB05009E15F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B182864F4F9696452D09DA28 /* Pods-Self ServiceUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8CDDGZK854;
+				INFOPLIST_FILE = "Self ServiceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasamarga.Self-ServiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Self Service";
+			};
+			name = Debug;
+		};
+		252F27F11E17EB05009E15F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9472627DEA7683D00A40E1CC /* Pods-Self ServiceUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8CDDGZK854;
+				INFOPLIST_FILE = "Self ServiceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasamarga.Self-ServiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Self Service";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		252F27BC1E17EB04009E15F6 /* Build configuration list for PBXProject "Self Service" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252F27E71E17EB05009E15F6 /* Debug */,
+				252F27E81E17EB05009E15F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252F27E91E17EB05009E15F6 /* Build configuration list for PBXNativeTarget "Self Service" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252F27EA1E17EB05009E15F6 /* Debug */,
+				252F27EB1E17EB05009E15F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252F27EC1E17EB05009E15F6 /* Build configuration list for PBXNativeTarget "Self ServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252F27ED1E17EB05009E15F6 /* Debug */,
+				252F27EE1E17EB05009E15F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252F27EF1E17EB05009E15F6 /* Build configuration list for PBXNativeTarget "Self ServiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252F27F01E17EB05009E15F6 /* Debug */,
+				252F27F11E17EB05009E15F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 252F27B91E17EB04009E15F6 /* Project object */;
+}

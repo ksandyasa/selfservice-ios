@@ -1,0 +1,6 @@
+framework module IGCMenu {
+  umbrella header "IGCMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
